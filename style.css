@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    color: #CE464D;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #CE464D;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #24518C;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    letter-spacing: 1.2px;
+    color: #CE464D;
+}
+
+/* HEADER END */
+
+
+/* BANNER */
+
+.intro-banner {
+    background-image: url(./img/intro-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    padding: 20px 0;
+    width: 100%;
+    color: #CE464D;
+    background-color: whitesmoke;
+}
+
+.intro-text h1 {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.intro-text h3 {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+}
+
+/* BANNER END */
+
+
+/* WORKS */
+
+.works-text {
+    margin: 20px 0;
+}
+
+.work-images {
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.images {
+    height: 200px;
+    width: 300px;
+    margin: 20px 10px;
+}
+
+.images img {
+    height: 200px;
+    width: 300px;
+    border: 2px solid #CE464D;
+}
+
+/* WORKS END */
+
+
+/* TEAM */
+
+.banner-team {
+    background-image: url(./img/banner-team.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.team-text {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.member-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    height: auto;
+    width: 200px;
+    margin: 20px 10px;
+}
+
+.member img {
+    height: 300px;
+    width: 200px;
+    border: 2px solid #CE464D;
+}
+
+.member h3 {
+    padding: 10px;
+}
+
+.member p {
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* TEAM END */
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* FOOTER END */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 480px) {
+    nav {
+        width: 90%;
+    }
+}
+
+/* MEDIA QUERIES END */
